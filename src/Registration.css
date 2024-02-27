@@ -1,0 +1,79 @@
+body {
+    
+    background-image: url('C:\Users\Sankalpa Fernando\Documents\React_projects\Reg\registration\Images\bg.png');
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}
+
+.regcontent {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 150vh;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+  }
+
+.e, .pass, .n {
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+input {
+    margin-left: 20px;
+    width: 30vh;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+label,p {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.btnReg {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #001dc3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20vh;
+  font-size: 14px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .emailVal, .passwordVal, .nameVal {
+    color: #ff6464;
+  }
