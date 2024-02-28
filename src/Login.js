@@ -34,7 +34,7 @@ function Login() {
                     <label htmlFor='email'>email</label>
                 </div>
                 <div>
-                    <input type='email' placeholder='Enter Email' name='email'
+                    <input className='inputbox' type='email' placeholder='Enter Email' name='email'
                     onChange={handleInput} />
                     <div>
                         {errors.email && <span className='emailVal'> {errors.email}</span>}
@@ -47,7 +47,7 @@ function Login() {
                     <label htmlFor='password'>password</label>
                 </div>
                 <div>
-                    <input type='password' placeholder='Enter Password' name='password'
+                    <input className='inputbox' type='password' placeholder='Enter Password' name='password'
                     onChange={handleInput}/>
                     <div>
                         {errors.password && <span className='passwordVal'> {errors.password}</span>}

@@ -44,7 +44,7 @@ function Registration() {
                     <label htmlFor='name'>User Name</label>
                 </div>
                 <div>
-                    <input type='text' placeholder='Enter Name' name='name' value={values.name}
+                    <input className='inputbox' type='text' placeholder='Enter Name' name='name' value={values.name}
                     onChange={handleInput} />
                 </div>
                 <div>
@@ -57,7 +57,7 @@ function Registration() {
                     <label htmlFor='email'>Email</label>
                 </div>
                 <div>
-                    <input type='email' placeholder='Enter Email' name='email' value={values.email}
+                    <input className='inputbox' type='email' placeholder='Enter Email' name='email' value={values.email}
                     onChange={handleInput} />
                 </div>
                 <div>
@@ -70,7 +70,7 @@ function Registration() {
                     <label htmlFor='password'>Password</label>
                 </div>
                 <div>
-                    <input type='password' placeholder='Enter Password' name='password' value={values.password}
+                    <input className='inputbox' type='password' placeholder='Enter Password' name='password' value={values.password}
                     onChange={handleInput} />
                 </div>
                 <div>

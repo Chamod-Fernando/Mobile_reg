@@ -1,15 +1,21 @@
 body {
-    
-    background-image: url('C:\Users\Sankalpa Fernando\Documents\React_projects\Reg\registration\Images\bg.png');
-    background-color: rgba(255, 255, 255, 0.5);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
+  background-image: url('C:\Users\Sankalpa Fernando\Documents\React_projects\Reg\registration\Images\bg.png');
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
     
 }
 
 .regcontent {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,8 +23,9 @@ body {
     align-items: center;
     justify-content: center;
     height: 60vh;
-    width: 150vh;
-    max-width: 400px;
+    width: 70vh;
+    min-width: 400px;
+    min-height: 450px;
     margin: auto;
     padding: 20px;
     border: 2px solid #ccc;
@@ -76,4 +83,9 @@ label,p {
 
   .emailVal, .passwordVal, .nameVal {
     color: #ff6464;
+  }
+
+  ::placeholder {
+    color: #737373;
+    font-size: 0.75rem;
   }
